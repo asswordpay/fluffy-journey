@@ -1,2 +1,3 @@
 #!/bin/bash
-echo hi
+sudo apt update
+sudo apt full-upgrade
